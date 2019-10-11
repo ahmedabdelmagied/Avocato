@@ -3,6 +3,7 @@ import 'package:avocato/screens/entryScreen/mainScreen/mainScreen.dart';
 import 'package:avocato/screens/entryScreen/notificationScreen/notificationScreen.dart';
 import 'package:avocato/screens/entryScreen/messageScreen/messageScreen.dart';
 import 'package:avocato/main.dart';
+// import 'package:avocato/screens/complains/complainScreen.dart';
 
 class EntryScreenWidget extends StatefulWidget{
   @override
@@ -17,6 +18,7 @@ class _EntryScreenWidgetState extends State<EntryScreenWidget>{
         if(index == 2){
           // current = new NotificationScreen();
           current = MessageScreen();
+          // current = ComplainScreen();
         //TODO YOU MUST LOGIN IN ORDER TO CONTINUE..
           // Navigator.of(context).push(new MaterialPageRoute(builder: (context) => new MessageScreen()));
         }

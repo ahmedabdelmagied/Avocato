@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:avocato/screens/lawyers/laywers.dart';
-
+import 'package:avocato/screens/complains/complainScreen_widget.dart';
 
 class MainScreen extends StatefulWidget{
   @override
@@ -110,7 +110,7 @@ class _MainScreenState extends State<MainScreen>{
                                 child:  Text( " إستشاره قانونيه" , style: TextStyle(fontSize:15.0,fontWeight: FontWeight.bold , color: Colors.white),),
                               ),
                               onPressed: (){
-                                  Navigator.push(context,MaterialPageRoute(builder: (context) => new Lawyers()));
+                                  Navigator.push(context,MaterialPageRoute(builder: (context) => new ComplainScreenDetails()));
                               },
                           ),
                       ),

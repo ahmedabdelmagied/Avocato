@@ -1,4 +1,4 @@
-#Thu Oct 10 19:01:05 EET 2019
+#Fri Oct 11 11:43:50 EET 2019
 base.0=/home/abdelmagied/Desktop/Avoocato-master/build/app/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex
